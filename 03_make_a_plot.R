@@ -92,7 +92,7 @@ p + geom_point(color = "purple") +
 # Setting opacity for points and color for line
 
 p + geom_point(alpha = 0.3) +
-    geom_smooth(color = "orange", se = FALSE, size = 8, method = "lm") +
+    geom_smooth(color = "orange", se = FALSE, size = 2, method = "lm") +
     scale_x_log10()
 
 
